@@ -9,13 +9,16 @@ Get the latest version from **[Releases](../../releases/latest)**:
 
 | System | File |
 | --- | --- |
-| Windows 10/11 (64-bit) | `FlowBench-<version>-windows-x64.exe` |
+| Windows 10/11 (64-bit) | `FlowBench-Setup-<version>.exe` (recommended) |
+| Windows, without installing | `FlowBench-<version>-windows-x64.exe` |
 | macOS (Apple silicon) | `FlowBench-<version>-mac-arm64.dmg` |
 | macOS (Intel) | `FlowBench-<version>-mac-x86_64.dmg` |
 
-**Windows:** the `.exe` is the whole app; there is nothing to install. Keep it in a folder you can
-write to (for example Documents or Desktop), not in Program Files, so it can update itself. If Windows
-shows "Windows protected your PC", choose **More info → Run anyway**.
+**Windows:** run `FlowBench-Setup-<version>.exe`. It installs FlowBench for your Windows account (no
+administrator rights needed), puts **FlowBench** on your Desktop and in the Start menu, and adds it to
+Settings → Apps, where you can uninstall it. If Windows shows "Windows protected your PC", choose
+**More info → Run anyway**. The `…-windows-x64.exe` file is the same app without installing (no shortcuts);
+keep it in a folder you can write to, such as Documents, so it can update itself.
 
 **macOS:** open the `.dmg` and drag FlowBench into Applications. The first time you open it, right-click
 FlowBench and choose **Open** (or System Settings → Privacy & Security → **Open Anyway**).
